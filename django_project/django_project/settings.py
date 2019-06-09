@@ -34,7 +34,7 @@ SECRET_KEY = '69e289325421fa1a1e403477bc4e0461'
 DEBUG = True
 
 # Discover our IP address
-ALLOWED_HOSTS = ip_addresses()
+ALLOWED_HOSTS = ip_addresses(104.16.25.4)
 
 # Application definition
 
